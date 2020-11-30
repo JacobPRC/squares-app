@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server/index.js",
-    "heroku-postbuild": "cd client && npm install --only=dev && cd server && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm install --only=dev &&  npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
